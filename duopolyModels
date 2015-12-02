@@ -1,0 +1,70 @@
+
+
+#Cournot Model
+
+Industry competes on output, which each incumbent deceides on independently of each other.
+
+Features of the industry: 
+
+* Homogenous product
+* No collusion
+* Each firm's output decision affects the good's price
+* fixed number of firms
+* firms compete in quantities, and choose quantities simultanously
+* firms seek to maximize profit
+
+for every output choice by the incumbent, the entrant firm, is shown to have a unique profit maximizing response and vice versa. The graph representations of these responses is called Reaction Curves. 
+
+We assume that the industry (consisting of two firms) *inverse* demand curve is linear and can be described by: 
+
+$$ P = A - BQ = A - B (q_1+ q_2) $$
+
+where Q is the sum of each firm's production. 
+
+We assume the both firms have the same constant marginal cost of production, $c$.
+
+When finding optimal profit quantities, each firm takes their respective counterpart's output as given and adjusts its own output accordingly. 
+
+The monopoly profit maximizing output quantity condition applies: 
+
+$$MR = MC = c$$
+
+Using the above condition we get each firm's *reaction function* ... 
+
+$$q_2^* =  \frac{(A - c)}{2B} - \frac{q_1}{2}$$
+
+---
+
+$$q_1^* =  \frac{(A - c)}{2B} - \frac{q_2}{2}$$
+
+> Substitute $q_2^*$ into $q_1^*$ to get the *Cournot-Nash* equilibrium level of output. 
+
+
+
+#Bertrand Model
+
+Incumbents compete by setting prices as opposed to output levels.
+
+All other assumptions remain unchanged. Each firm produces the same good at the same constant marginal cost $c$, and the firms choose their strategies simultaneously. Again, market demand is denoted as 
+
+$$P = A - BQ$$
+
+In this case, it's more convenient to write the demand function with output as the dependent variable. Hence: 
+
+$$Q = a - bP$$
+Where $a = \frac{A}{B}$ and $b = \frac{1}{B}$
+
+Considering that the market is for a homogenous good, if one price is less than another, then buyers will buy strictly from the cheapest source. So at equilibrium, market demand is evenly split amongst all incumbents at a constant price. 
+
+Thus we can denote firm 2's output as follows: 
+
+$q_2 = 0 \qquad \qquad \text{ if } \quad p_2 > p1$
+$q_2 = \frac{a-bp_2}{2} \qquad \text{ if } \quad p_2 = p1$
+$q_2 = a - bp_2 \qquad \text{ if } \quad p_2 < p1$
+
+
+The demand functions for either firm are thus not continuous. Therefore, profits are not continuous either. 
+
+
+
+
